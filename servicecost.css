@@ -1,0 +1,86 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.main{
+  height: fit-content;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav{
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+}
+#data{
+  height: fit-content;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tab{
+  border: 2px solid;
+  width: 80vw;
+  background-color: aqua;
+  margin-top: 15px;
+  padding: 5px;
+}
+.tab th{
+  border: 2px solid;
+  text-align: center;
+  padding: 10px;
+}
+.tab td{
+  border: 2px solid;
+  text-align: center;
+  padding: 10px;
+
+}
+.tab .wname{
+  width: 20%;
+}
+.tab .addr{
+  width: 50%;
+}
+.startdate,.enddate{
+  border-radius: 50px;
+  width: 100px;
+  /* margin-left: 18%; */
+  background-color: blue;
+  cursor: pointer;
+}
+td .cdd{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scostb{
+  border-radius: 50px;
+  width: 100px;
+  /* margin-left: 18%; */
+  background-color: blue;
+  cursor: pointer;
+}
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid; */
+  height: 30px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: #71b7e6;
+  cursor: pointer;
+}
+.home:hover{
+  box-shadow: 2px 2px 12px #b171e6;
+}
